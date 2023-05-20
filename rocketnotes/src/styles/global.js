@@ -10,7 +10,7 @@ export default createGlobalStyle`
 body{
   background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
   color: ${({theme}) => theme.COLORS.WHITE};
-
+}
 
 a{
   text-decoration: none;
