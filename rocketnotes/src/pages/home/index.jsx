@@ -3,6 +3,8 @@ import { Container, Brand, Menu, Search, Content, NewNote} from "./styles";
 
 import { Header } from "../../components/header"
 import { Input } from "../../components/input";
+import { Section } from "../../components/section"
+import { Note } from "../../components/note"
 
 import { ButtonText } from "../../components/buttonText"
 
@@ -30,6 +32,15 @@ export function Home () {
     </Search>
 
     <Content>
+      <Section title="minhas notas">
+        <Note data={{
+        title: "React", 
+        tags: [
+         {id: "1", name: "react"},
+         {id: "2", name: "Rocketseat"}]
+      }}
+      />
+      </Section>
 
     </Content>
 
