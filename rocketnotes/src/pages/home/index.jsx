@@ -1,6 +1,7 @@
 import { FiPlus } from "react-icons/fi"
 import { Container, Brand, Menu, Search, Content, NewNote} from "./styles";
 
+
 import { Header } from "../../components/header"
 import { Input } from "../../components/input";
 import { Section } from "../../components/section"
@@ -45,7 +46,7 @@ export function Home () {
     </Content>
 
 
-    <NewNote>
+    <NewNote to="/new">
     <FiPlus/>
     Criar nota
     </NewNote>
